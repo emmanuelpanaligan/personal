@@ -9,7 +9,7 @@ function show(shown) {
 		case "Resume":
 		document.getElementById(shown).style.display='block';
 		document.getElementById("Resume").innerHTML = '<embed id="Embed" src="resume.pdf" type="application/pdf" width="100%" />';
-		document.getElementById("Embed").style.height = ($(window).height()-70)+"px";
+		document.getElementById("Embed").style.height = ($(window).height()-80)+"px";
 		break;
 		case "Splash":
 		document.getElementById(shown).style.display='block';

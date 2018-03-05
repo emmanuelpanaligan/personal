@@ -4,34 +4,25 @@
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Emmanuel Panaligan</title>
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 	<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="app.css">
 </head>
 <body>
 
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="index.html">Emmanuel Panaligan</a>
-			</div>
-			<div id="navbar" class="collapse navbar-collapse">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" onclick="return show('Splash');"><i class="fas fa-home"></i>&nbsp;Home</a></li>
-					<li><a href="#about" data-toggle="collapse" data-target=".navbar-collapse.in" onclick="return show('About');"><i class="fas fa-info-circle"></i>&nbsp;About Me</a></li>
-					<li><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse.in" onclick="return show('Contact');"> <i class="fas fa-envelope"></i>&nbsp;Contact</a></li>
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" onclick="return show('Resume');"><i class="far fa-file-alt"></i>&nbsp;Resume</a></li>
-					<li><a href="#a" data-toggle="collapse" data-target=".navbar-collapse.in" onclick="return show('Projects');"><i class="fas fa-flask"></i>&nbsp;Projects</a></li>
-				</ul>
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="index.html">Emmanuel Panaligan</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a href="#home" class="nav-item nav-link active" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="return show('Splash');"><i class="fas fa-home"></i>&nbsp;Home</a>
+				<a href="#about" class="nav-item nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="return show('About');"><i class="fas fa-info-circle"></i>&nbsp;About Me</a>
+				<a href="#resume" class="nav-item nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="return show('Resume');"> <i class="far fa-file-alt"></i>&nbsp;Resume</a>
+				<a href="#projects" class="nav-item nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="return show('Projects');"><i class="fas fa-flask"></i></i>&nbsp;Projects</a>
+				<a href="#contact" class="nav-item nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="return show('Contact');"><i class="fas fa-envelope"></i></i>&nbsp;Contact</a>
 			</div>
 		</div>
 	</nav>
@@ -72,8 +63,8 @@
 	</div>
 
 	<script type="text/javascript" src="backend.js"></script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
-	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 </html>
