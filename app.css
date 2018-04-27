@@ -1,7 +1,9 @@
 body {
 	background: url(background.jpg);
 	background-size: cover;
-	background-position: center; 
+	background-position: center center; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 body,
@@ -42,11 +44,22 @@ hr {
 }
 
 #Contact {
-	margin-top: 25%;
+	margin-top: 7rem;
 	margin-left:10%;
 	margin-right:10%;
+	margin-bottom:10%;
+}
+
+.cardColor {
 	background-color: rgba(255,255,255,0.7);
 	color: black;
 	font-family: 'Nanum Gothic Coding', monospace;
 	word-wrap: break-word;
+}
+
+.project {
+	margin-top: 5rem;
+	margin-right: 3%;
+	margin-bottom: 5rem;
+	max-width: 15rem;
 }
