@@ -2,7 +2,7 @@ function show(shown) {
 	document.getElementById("Resume").style.display='none';
 	document.getElementById("Splash").style.display='none';
 	document.getElementById("Contact").style.display='none';
-	document.getElementById("About").style.display='none';
+//	document.getElementById("About").style.display='none';
 	document.getElementById("Projects").style.display='none';
 
 	switch (shown) {
@@ -17,9 +17,9 @@ function show(shown) {
 		case "Contact":
 		document.getElementById(shown).style.display='block';
 		break;
-		case "About":
-		document.getElementById(shown).style.display='block';
-		break;
+//		case "About":
+//		document.getElementById(shown).style.display='block';
+//		break;
 		case "Projects":
 		document.getElementById(shown).style.display='block';
 		break;
