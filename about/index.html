@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>about</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="icon" href="tap_icon.jpg" />
+	<link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="index.html">Emmanuel Panaligan</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a href="#home" class="nav-item nav-link active" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="return show('Splash');"><i class="fas fa-home"></i>&nbsp;Home</a>
+				<!-- <a href="#about" class="nav-item nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="return show('About');"><i class="fas fa-info-circle"></i>&nbsp;About Me</a> -->
+				<a href="#resume" class="nav-item nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="return show('Resume');"> <i class="far fa-file-alt"></i>&nbsp;Resume</a>
+				<a href="#projects" class="nav-item nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="return show('Projects');"><i class="fas fa-flask"></i></i>&nbsp;Projects</a>
+				<a href="#contact" class="nav-item nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onclick="return show('Contact');"><i class="fas fa-envelope"></i></i>&nbsp;Contact</a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div id="Splash" class="content shadow">
+			<h1>ABOUT</h1>
+			<hr>
+			<h3>What can I do for you?</h3>
+		</div>
+		<div id="Resume" style="display:none">
+		</div>
+		<div id="Contact" class="card cardColor" style="display:none">
+			<div class="card-header">
+				<h2>Let's get in touch!</h2>
+			</div>
+			<div class="card-block">
+				<blockquote class="card-blockquote">
+					<p>E-MAIL:</p>
+					<p>empanalig@gmail.com</p>
+					<p>MOBILE:</p>
+					<p>+1(516)476-1214</p>
+					<p>LINKEDIN:</p>
+					<p>
+						<a href="https://www.linkedin.com/in/emmanuelpanaligan/" role="button">https://www.linkedin.com/in/emmanuelpanaligan/</a>
+					</p>	
+					<p>GITHUB:</p>
+					<p>
+						<a href="https://github.com/emmanuelpanaligan" role="button">https://github.com/emmanuelpanaligan</a>
+					</p>	
+				</blockquote>
+			</div>
+		</div>
+		<!-- <div id="About" class="content shadow" style="display:none"> -->
+			<!-- <h1>Under Construction!</h1> -->
+		<!-- </div> -->
+		<div id="Projects" style="display:none" class="container">
+			<div class="row">
+				<div class="card cardColor col-sm project">
+					<img class="card-img-top" src="tap_icon.jpg">
+					<div class="card-body">
+						<h5 class="card-title">Patatap Clone</h5>
+						<p class="card-text">Patatap.com generates random sounds and animations when letters on the keyboard are pressed. This clone recreates the functionality of that site with my own twist. Works on mobile too! Click, Tap, or Type! <a href="https://github.com/emmanuelpanaligan/patatapClone">(Source Code)</a></p>
+						<a href="https://emmanuelpanaligan.github.io/patatapClone/" class="btn btn-secondary">Let's Jam!</a>
+					</div>
+				</div>
+				<div class="card cardColor col-sm project">
+					<img class="card-img-top" src="stock_icon.jpg">
+					<div class="card-body">
+						<h5 class="card-title">Stock Data Serializer</h5>
+						<p class="card-text">A C++ program that takes in an input file, parses the data, serializes it into bytes and stores it on the disk in binary files. It then deserializes the data and rebuilds the original file.</a></p>
+						<a href="https://github.com/emmanuelpanaligan/csv_serializer" class="btn btn-secondary">View GitHub!</a>
+					</div>
+				</div>
+				<div class="card cardColor col-sm project">
+					<img class="card-img-top" src="robot.jpg">
+					<div class="card-body">
+						<h5 class="card-title">Obstacle-Avoiding Robot</h5>
+						<p class="card-text">A robot car driven by an Arduino Microcontroller. It detects obstacles using an Ultrasonic sensor and moves with the help of three servos. I constructed it with duct tape and cardboard.</a></p>
+						<a href="https://youtu.be/UufO1xnljuE" class="btn btn-secondary">View on Youtube!</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="backend.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
